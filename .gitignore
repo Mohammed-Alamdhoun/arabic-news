@@ -1,0 +1,41 @@
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+
+# ── Test / lint caches ─────────────────────────────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Notebooks ──────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Secrets ────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Project artifacts (large or sensitive) ────────────────────────────────
+data/
+models/
+outputs/
+
+# ── Not published to the repo (kept locally only) ──────────────────────────
+tests/
+docs/
+README.md
+
+# ── OS / editor ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

@@ -1,0 +1,18 @@
+# Default preprocessing config. Scripts may load this and override fields.
+
+preprocessing:
+  enable_number_masking:    true
+  enable_date_extraction:   true
+  enable_lemmatization:     true
+  enable_post_lemma_filter: true
+  lemmatizer:               mle      # mle | bert
+  min_token_len:            2
+  extra_stopwords:          []
+
+paths:
+  raw_articles:     data/raw/articles_2026_05_fixed.jsonl
+  preprocessed_out: data/processed/preprocessed.jsonl
+
+logging:
+  level: INFO
+  json:  true            # structured logs to outputs/logs/

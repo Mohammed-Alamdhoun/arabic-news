@@ -1,0 +1,8 @@
+# Development & test tooling. Install with:
+#   pip install -r requirements-dev.txt
+
+pytest>=8.0
+pytest-cov>=5.0
+ruff>=0.5            # lint + format (replaces black, flake8, isort)
+mypy>=1.10
+pre-commit>=3.7

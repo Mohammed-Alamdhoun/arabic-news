@@ -1,0 +1,12 @@
+# Fast iteration config — small slice + MLE lemmatizer.
+# Override the relevant fields from default.yaml.
+
+preprocessing:
+  lemmatizer: mle
+
+slice:
+  offset: 0
+  limit:  100
+
+logging:
+  level: DEBUG
