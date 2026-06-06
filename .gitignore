@@ -20,7 +20,6 @@ htmlcov/
 # ── Secrets ────────────────────────────────────────────────────────────────
 .env
 .env.*
-!.env.example
 
 # ── Project artifacts (large or sensitive) ────────────────────────────────
 data/
@@ -37,10 +36,12 @@ tests/
 docs/
 README.md
 
-# ── Paper & slides (kept locally, not in the code repo) ────────────────────
+# ── Paper, slides & diagram source (kept locally, not in the code repo) ────
 *.tex
 *.pdf
 *.pptx
+pipeline.puml
+.env.example
 
 # ── OS / editor ────────────────────────────────────────────────────────────
 .DS_Store
