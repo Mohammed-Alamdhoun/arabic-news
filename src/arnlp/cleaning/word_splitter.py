@@ -69,7 +69,7 @@ from transformers import (
     AutoModelForTokenClassification,
     get_linear_schedule_with_warmup,
 )
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, f1_score
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 
@@ -404,7 +404,6 @@ def evaluate(
     print(f"\n── {split.upper()} evaluation ──")
     print(report)
 
-    from sklearn.metrics import f1_score
     return f1_score(all_labels, all_preds, pos_label=1)
 
 

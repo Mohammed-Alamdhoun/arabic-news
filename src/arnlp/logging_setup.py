@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 
+
 def configure_logging(level: str = "INFO", log_file: str | Path | None = None) -> None:
     """Initialise root logger.
 

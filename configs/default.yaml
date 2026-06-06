@@ -5,7 +5,7 @@ preprocessing:
   enable_date_extraction:   true
   enable_lemmatization:     true
   enable_post_lemma_filter: true
-  lemmatizer:               mle      # mle | bert
+  lemmatizer:               mle      # mle
   min_token_len:            2
   extra_stopwords:          []
 

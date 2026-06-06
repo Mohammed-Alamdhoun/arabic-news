@@ -1,0 +1,8 @@
+# Streamlit theme — keeps native widgets (slider, toggles, selectbox focus,
+# buttons) consistent with the app's dark/blue look instead of the default red.
+[theme]
+base = "dark"
+primaryColor = "#5b8cff"
+backgroundColor = "#0b1020"
+secondaryBackgroundColor = "#121a2e"
+textColor = "#e9eef7"

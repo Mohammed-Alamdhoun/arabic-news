@@ -27,10 +27,20 @@ data/
 models/
 outputs/
 
+# ── Archives & logs (kept locally, never committed) ───────────────────────
+*.rar
+*.zip
+*.log
+
 # ── Not published to the repo (kept locally only) ──────────────────────────
 tests/
 docs/
 README.md
+
+# ── Paper & slides (kept locally, not in the code repo) ────────────────────
+*.tex
+*.pdf
+*.pptx
 
 # ── OS / editor ────────────────────────────────────────────────────────────
 .DS_Store

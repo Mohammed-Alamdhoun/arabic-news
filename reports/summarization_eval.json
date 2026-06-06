@@ -1,0 +1,124 @@
+{
+  "overall": {
+    "baseline": {
+      "n": 60.0,
+      "summary_words": 75.15,
+      "grounding": 0.5515798672704795,
+      "number_hallucination": 0.20277777777777778,
+      "novel_content_rate": 0.4484201327295205,
+      "redundancy": 0.08229717051535962,
+      "distinct_2": 0.9177028294846404,
+      "compression_ratio": 0.1766355793059557,
+      "rouge1_r": 0.3485724923224924,
+      "rouge1_f": 0.11249115805831976,
+      "rouge2_f": 0.034059520952836445,
+      "rougeL_f": 0.09832128917954802
+    },
+    "enhanced": {
+      "n": 60.0,
+      "summary_words": 58.9,
+      "grounding": 0.5600668267300875,
+      "number_hallucination": 0.06666666666666667,
+      "novel_content_rate": 0.43993317326991266,
+      "redundancy": 0.06839170664453194,
+      "distinct_2": 0.9316082933554681,
+      "compression_ratio": 0.14006560732894602,
+      "rouge1_r": 0.31272551522551517,
+      "rouge1_f": 0.11369662942500362,
+      "rouge2_f": 0.028479678621276885,
+      "rougeL_f": 0.1022606926380703
+    }
+  },
+  "buckets": {
+    "short": {
+      "baseline": {
+        "n": 20.0,
+        "summary_words": 22.55,
+        "grounding": 0.4894631712961064,
+        "number_hallucination": 0.0,
+        "novel_content_rate": 0.5105368287038936,
+        "redundancy": 0.011504111580573345,
+        "distinct_2": 0.9884958884194267,
+        "compression_ratio": 0.27319640252988064,
+        "rouge1_r": 0.31756854256854267,
+        "rouge1_f": 0.1960630210645252,
+        "rouge2_f": 0.06844874437153181,
+        "rougeL_f": 0.1739598464613506
+      },
+      "enhanced": {
+        "n": 20.0,
+        "summary_words": 20.45,
+        "grounding": 0.5229450045568467,
+        "number_hallucination": 0.0,
+        "novel_content_rate": 0.4770549954431534,
+        "redundancy": 0.009449760765550236,
+        "distinct_2": 0.9905502392344498,
+        "compression_ratio": 0.22061992837963137,
+        "rouge1_r": 0.2908513708513709,
+        "rouge1_f": 0.18412063546544968,
+        "rouge2_f": 0.05248318061339883,
+        "rougeL_f": 0.1702317465765608
+      }
+    },
+    "medium": {
+      "baseline": {
+        "n": 20.0,
+        "summary_words": 68.65,
+        "grounding": 0.5872162488134258,
+        "number_hallucination": 0.2833333333333333,
+        "novel_content_rate": 0.41278375118657423,
+        "redundancy": 0.09487261126724791,
+        "distinct_2": 0.905127388732752,
+        "compression_ratio": 0.1401025268950648,
+        "rouge1_r": 0.36394161394161395,
+        "rouge1_f": 0.09440355347561548,
+        "rouge2_f": 0.022425736597089296,
+        "rougeL_f": 0.07822539322079695
+      },
+      "enhanced": {
+        "n": 20.0,
+        "summary_words": 52.5,
+        "grounding": 0.5912102578192848,
+        "number_hallucination": 0.15,
+        "novel_content_rate": 0.4087897421807152,
+        "redundancy": 0.07521275521430933,
+        "distinct_2": 0.9247872447856906,
+        "compression_ratio": 0.10907686961033089,
+        "rouge1_r": 0.3238550338550338,
+        "rouge1_f": 0.10326529257655928,
+        "rouge2_f": 0.020589342446855112,
+        "rougeL_f": 0.08571737923411256
+      }
+    },
+    "long": {
+      "baseline": {
+        "n": 20.0,
+        "summary_words": 134.25,
+        "grounding": 0.5780601817019063,
+        "number_hallucination": 0.325,
+        "novel_content_rate": 0.4219398182980937,
+        "redundancy": 0.14051478869825756,
+        "distinct_2": 0.8594852113017424,
+        "compression_ratio": 0.1166078084929217,
+        "rouge1_r": 0.36420732045732046,
+        "rouge1_f": 0.04700689963481875,
+        "rouge2_f": 0.011304081889888209,
+        "rougeL_f": 0.042778627856496554
+      },
+      "enhanced": {
+        "n": 20.0,
+        "summary_words": 103.75,
+        "grounding": 0.5660452178141306,
+        "number_hallucination": 0.05,
+        "novel_content_rate": 0.43395478218586936,
+        "redundancy": 0.12051260395373628,
+        "distinct_2": 0.8794873960462637,
+        "compression_ratio": 0.09050002399687572,
+        "rouge1_r": 0.32347014097014093,
+        "rouge1_f": 0.053703960233002036,
+        "rouge2_f": 0.012366512803576707,
+        "rougeL_f": 0.05083295210353763
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
-# Full-corpus production config — BERT disambiguator for ambiguity.
+# Full-corpus production config.
 
 preprocessing:
-  lemmatizer: bert
+  lemmatizer: mle
 
 slice: null   # no slicing — process the full corpus
 

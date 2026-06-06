@@ -13,9 +13,6 @@ Examples::
     # full corpus
     python scripts/run_preprocess.py --input data/raw/articles_2026_05_fixed.jsonl \
                                      --output data/processed/preprocessed.jsonl
-
-    # switch to BERT disambiguator (~15× slower)
-    python scripts/run_preprocess.py --limit 100 --lemmatizer bert
 """
 
 from __future__ import annotations
@@ -54,8 +51,6 @@ def main() -> None:
                     help="skip the first N records")
     ap.add_argument("--limit",  type=int, default=None,
                     help="cap the number of records processed")
-    ap.add_argument("--lemmatizer", choices=["mle", "bert"], default="mle",
-                    help="MLE (fast) or BERT-unfactored (context-aware)")
     ap.add_argument("--report-every", type=int, default=500,
                     help="print a progress line every N articles (0 = silent)")
     args = ap.parse_args()
@@ -70,9 +65,8 @@ def main() -> None:
     print(f"Input  : {args.input}")
     print(f"Output : {args.output}")
     print(f"Slice  : offset={args.offset}  limit={args.limit}")
-    print(f"Lemma  : {args.lemmatizer}")
 
-    pipe = ArabicTextPipeline(PipelineConfig(lemmatizer=args.lemmatizer))
+    pipe = ArabicTextPipeline(PipelineConfig())
 
     def records():
         t0 = time.time()
